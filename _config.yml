@@ -4,11 +4,11 @@
 
 # Site
 title: enslor
-subtitle:
+subtitle: 砍柴即砍柴，担水即担水，做饭即做饭
 description:
 keywords:
 author: ZhuHanYi
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -70,10 +70,20 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+social_links:
+  mail: mailto:2890662403@qq.com
+
+nav:
+  Home: /
+  About: /about/
+  Writing: /archives/
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus
+theme_config:
+  colorscheme: light
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
